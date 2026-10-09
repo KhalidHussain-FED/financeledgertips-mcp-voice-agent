@@ -1,0 +1,21 @@
+{
+  "name": "financeledgertips-mcp-voice-agent",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "Finance Ledger Tips MCP voice agent server",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js --ws --mcp",
+    "start:ws": "node server/index.js --ws",
+    "start:mcp": "node server/index.js --mcp"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.18.0",
+    "ws": "^8.18.0",
+    "zod": "^3.23.8"
+  }
+}
