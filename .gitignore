@@ -1,6 +1,23 @@
+﻿# Dependencies
 node_modules
+
+# Environment
 .env
-server/data/store.json
-server/data/store.json.tmp
+.env.local
+.env.*.local
+
+# Runtime data (contacts, call logs)
+data/
+server/data/
+*.tmp
+
+# Logs
 *.log
+npm-debug.log*
+
+# OS
 .DS_Store
+Thumbs.db
+
+# Build output
+dist/
